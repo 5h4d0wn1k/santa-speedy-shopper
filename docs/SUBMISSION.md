@@ -8,7 +8,7 @@ Tags and hashtag are mandatory: `@Cerebras @Kimi_Moonshot #KimiOnCerebras`
 
 ```text
 Project: Santa's Speedy Shopper
-Team: @YOUR_HANDLE
+Team: @nikhilnagpure_
 This OpenClaw agent finds 5 real Christmas gifts with verified retail links in SECONDS using Kimi K3.1 Pro on Cerebras. Same prompt: GPU ~XXs vs Cerebras ~XXs (median of 3). 60s demo + code: github.com/YOU/REPO
 #KimiOnCerebras @Cerebras @Kimi_Moonshot
 ```
