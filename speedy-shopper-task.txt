@@ -1,0 +1,16 @@
+Use the $speedy-shopper skill.
+
+Task: find 5 real Christmas gift products from real retail sites. Prefer Amazon, Walmart, eBay, Home Depot, and Wayfair, with at least 3 different retailers. Each must be under 50 US dollars.
+
+Hard rules:
+- Use `web_search` directly — it is available. Do NOT call tool_search. Issue 5 site-filtered queries in ONE parallel tool block.
+- Do NOT fetch retailer search pages, homepages, or category pages directly. Only fetch product URLs returned by the search tool.
+- Use the available fetch tool on candidate product URLs in ONE parallel tool block.
+- Accept a candidate if web_fetch returns HTTP 200 with a product title, OR if it returns 403/429 (bot-protected) but the search result showed a title and USD price.
+- Reject only 404 and connection failures. If any candidate fails, use ONE more parallel fetch block with a replacement URL from the same search results. Maximum 2 fetch blocks.
+- Then answer. No other tools. No exec. No read. No loops beyond the one replacement block.
+- Do not hard-code or pre-bake results. Discovery must happen in this run.
+
+Final answer must be EXACTLY 5 lines, with no headings, commentary, or reasoning:
+
+Product name — USD 12.34 — Retailer — product page URL

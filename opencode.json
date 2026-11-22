@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "cerebras/moonshotai-kimi-k3.1-pro-trial",
+  "providers": {
+    "cerebras": {
+      "name": "Cerebras",
+      "env": ["CEREBRAS_API_KEY"],
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "https://api.cerebras.ai/v1",
+        "apiKey": "{env:CEREBRAS_API_KEY}"
+      },
+      "models": {
+        "moonshotai-kimi-k3.1-pro-trial": {
+          "name": "Kimi K3.1 Pro Trial (private preview)",
+          "modelID": "moonshotai-kimi-k3.1-pro-trial"
+        }
+      }
+    }
+  }
+}

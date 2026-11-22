@@ -1,0 +1,14 @@
+.openclaw/
+.openclaw-workspace/*
+!.openclaw-workspace/skills/
+.env
+*.env
+**/.env
+node_modules/
+out/
+*.mp4
+*.mov
+*.png
+*.gif
+__pycache__/
+*.pyc
