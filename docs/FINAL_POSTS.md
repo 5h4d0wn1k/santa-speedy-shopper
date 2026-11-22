@@ -1,6 +1,6 @@
 # Final posts — ready to paste
 
-Replace `nikhilnagpure_`, `https://github.com/5h4d0wn1k/santa-speedy-shopper`, `<VIDEO_URL>` before posting.
+Replace `<VIDEO_URL>` before posting. Repo and X handle are already filled in.
 
 ## X (REQUIRED)
 
@@ -27,7 +27,7 @@ Subreddit: **r/cerebras** · Flair: **Kimi K3.1 Pro Hackathon**
 
 ```text
 Project Name: Santa's Speedy Shopper
-Team Members: u/nikhilnagpure_ (@nikhilnagpure_ on X)
+Team Members: u/<YOUR_REDDIT_USERNAME> (@nikhilnagpure_ on X)
 Project Description: An OpenClaw agent that finds five real Christmas gift products from real retail sites, verifies each product page, and returns name/price/retailer/link. Kimi K3.1 Pro on Cerebras is the central model across the search-and-verify tool loop. Fastest verified run: 82s end-to-end (5 gifts, 9 tool turns, standard OpenClaw). Demo: <VIDEO_URL>
 GitHub Repository: https://github.com/5h4d0wn1k/santa-speedy-shopper
 Demo Video: attached
